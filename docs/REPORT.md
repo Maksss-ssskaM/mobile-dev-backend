@@ -23,3 +23,12 @@ git branch old-master 18eabfefb2ba8d1f5a87817ac36edb3b86e1335c
 git blame prisma/seed.ts
 ```
 ![img.png](img/4.png)
+
+### 5 task
+```
+git bisect start
+npm run test
+git bisect good/bad
+```
+![img.png](img/5.png)
+
