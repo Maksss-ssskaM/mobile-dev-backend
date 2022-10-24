@@ -39,3 +39,16 @@ git filter-branch --index-filter 'git rm --cached .env --ignore-unmatch' --prune
 ![img.png](img/6_1.png)
 ![img.png](img/6_2.png)
 
+### 7 task
+```
+git filter-branch --commit-filter '
+    if [ "$GIT_AUTHOR_EMAIL" = "bakasaru@list.ru" ];
+    then
+            GIT_AUTHOR_NAME="AnnemariaRe";
+            GIT_AUTHOR_EMAIL="annemariarepenko@gmail.com";
+            git commit-tree "$@";
+    else
+            git commit-tree "$@";
+    fi' HEAD
+```
+![img.png](img/7.png)
