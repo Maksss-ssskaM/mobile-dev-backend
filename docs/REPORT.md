@@ -32,3 +32,10 @@ git bisect good/bad
 ```
 ![img.png](img/5.png)
 
+### 6 task
+```
+git filter-branch --index-filter 'git rm --cached .env --ignore-unmatch' --prune-empty --tag-name-filter cat -- --all
+```
+![img.png](img/6_1.png)
+![img.png](img/6_2.png)
+
