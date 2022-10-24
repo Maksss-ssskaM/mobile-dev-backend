@@ -66,3 +66,9 @@ git merge feature
 git fsck --lost-found
 ```
 ![img.png](img/9.png)
+
+### 10 task
+```
+git gc
+```
+![img.png](img/10.png)
