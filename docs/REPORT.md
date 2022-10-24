@@ -72,3 +72,8 @@ git fsck --lost-found
 git gc
 ```
 ![img.png](img/10.png)
+
+### 11 task
+```
+git commit -m "message"
+```
