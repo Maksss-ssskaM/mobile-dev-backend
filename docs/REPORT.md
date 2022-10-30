@@ -1,6 +1,10 @@
 ### 1 task
 ![img.png](img/1.png)
 
+cd .git
+nano DESCRIPTION aboba
+
+![img.png](img/1_2.png)
 ### 2 task
 ```
 git cherry -v master 
